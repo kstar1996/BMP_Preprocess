@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eujin/CLionProjects/Preprocessing_Crop/bmp.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+bmp.h
+/Users/eujin/CLionProjects/Preprocessing_Crop/bmp.h
+
+/Users/eujin/CLionProjects/Preprocessing_Crop/bmp.h
+stdint.h
+-
+stdbool.h
+-
+stdio.h
+-
+
+/Users/eujin/CLionProjects/Preprocessing_Crop/test_bmp.c
+stdio.h
+-
+stdlib.h
+-
+bmp.h
+/Users/eujin/CLionProjects/Preprocessing_Crop/bmp.h
+assert.h
+-
+
